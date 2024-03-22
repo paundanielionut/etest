@@ -58,7 +58,7 @@ class Character:
         
         if self.health <= 0:
             raise HealthError(
-                f".... end game! ....\n"
+                ".... end game! ....\n"
                 f".... {opponent.name} wins! ...."
             )
 

@@ -40,7 +40,7 @@ class Game:
         round = 1
         while round <= 20:
             print (f".................... round: {round} ..................\n")
-            print(f".... BEFORE .... ")
+            print(".... BEFORE .... ")
             print(f"{hero}")
             print(f"{wild_beast}")
             try:
@@ -51,7 +51,7 @@ class Game:
                     print(f"{wild_beast.name} attacks {hero.name}!\n")
                     wild_beast.attack(hero)
 
-                print(f".... After .... ")
+                print(".... After .... ")
                 print(f"{hero}")
                 print(f"{wild_beast}")
                 
